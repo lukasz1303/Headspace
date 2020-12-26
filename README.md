@@ -3,6 +3,6 @@ Clone of original Headspace app. I removed res folder from repository becasue so
 
 
 ## Screenshots from app.  
-![Alt text](/screenshots/start.png?raw=true =250x) &nbsp; &nbsp;![Alt text](/screenshots/notification.png?raw=true =250x)
+![Alt text](/screenshots/start.png?raw=true) &nbsp; &nbsp;![Alt text](/screenshots/notification.png?raw=true)
 ![Alt text](/screenshots/selection.png?raw=true) &nbsp; &nbsp; ![Alt text](/screenshots/video.png?raw=true)
 ![Alt text](/screenshots/meditation.png?raw=true) &nbsp; &nbsp; ![Alt text](/screenshots/summary.png?raw=true)
