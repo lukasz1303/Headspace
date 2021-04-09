@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_flipper_single_run"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingleRunActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_hi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:letterSpacing="0.1"
+            android:text="Hi, welcome to Headspace"
+            android:textColor="@color/grey_700"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_hi"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:letterSpacing="0.05"
+            android:text="Before you explore the app, we recommend setting a meditation reminder."
+            android:textColor="@color/grey_700"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/circle_face_background_3" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/circle_face_background_2" />
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/circle_face_background_1" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/circle_face_main" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:paddingBottom="20dp"
+            android:src="@drawable/smile" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitEnd"
+            android:src="@drawable/wave" />
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_next_single_run"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/background_circle_dark_grey">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_keyboard_arrow_right_white_24dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_when"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:letterSpacing="0.05"
+            android:text="When would you like to meditate?"
+            android:textColor="@color/grey_700"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_helpful_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_when"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:letterSpacing="0.05"
+            android:text="It's helpful to use another daily activity as a reminder."
+            android:textColor="@color/grey_700"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_remind_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_helpful_reminder"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="center"
+            android:letterSpacing="0.05"
+            android:text="Remind me to meditate at:"
+            android:textColor="@color/grey_700"
+            android:textSize="26sp" />
+
+        <LinearLayout
+            android:id="@+id/linear_layout_time_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_remind_me"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_rectangle_light_orange"
+            android:orientation="horizontal"
+            android:paddingStart="24dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="24dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/tv_time_reminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:letterSpacing="0.05"
+                android:text="8:00"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_expand_more_black_24dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitEnd"
+            android:src="@drawable/wave" />
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_next_single_run_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/background_circle_dark_grey">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_keyboard_arrow_right_white_24dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ViewFlipper>

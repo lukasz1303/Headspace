@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F58B44</color>
+    <color name="colorPrimaryDark">#F47D31</color>
+    <color name="colorAccent">#505564</color>
+    <color name="colorBackground">#F47D31</color>
+    <color name="colorCategory">#BC000000</color>
+
+    <color name="color_dark_grey">#505564</color>
+    <color name="color_text_quotes">#35373D</color>
+
+    <integer-array name="color_list">
+        <item>@color/red_500</item>
+        <item>@color/pink_500</item>
+        <item>@color/purple_500</item>
+        <item>@color/deep_purple_500</item>
+        <item>@color/indigo_500</item>
+        <item>@color/blue_500</item>
+        <item>@color/light_blue_500</item>
+        <item>@color/cyan_500</item>
+        <item>@color/teal_500</item>
+        <item>@color/green_500</item>
+        <item>@color/light_green_500</item>
+        <item>@color/lime_500</item>
+        <item>@color/yellow_500</item>
+        <item>@color/amber_500</item>
+        <item>@color/orange_500</item>
+        <item>@color/deep_orange_500</item>
+        <item>@color/brown_500</item>
+        <item>@color/grey_500</item>
+        <item>@color/blue_grey_500</item>
+    </integer-array>
+
+    <integer-array name="single_color_deep_orange">
+        <item>@color/my_color</item>
+        <item>@color/my_color</item>
+    </integer-array>
+
+    <color name="my_color">#B3FFF1ED</color>
+
+    <color name="text_color">@color/colorPrimary</color>
+
+    <color name="separator_color">@color/grey_200</color>
+
+    <integer-array name="settings_color_list_unselected">
+        <item>@color/grey_500</item>
+        <item>@color/grey_500</item>
+    </integer-array>
+
+    <color name="color_smile_face">#F9C971</color>
+    <color name="color_smile_face2">#FFE1A1</color>
+    <color name="color_smile_face3">#F8EEE0</color>
+    <color name="color_smile_face4">#FAF4E9</color>
+
+    <color name="color_green_meditation_completed">#4CAF75</color>
+
+</resources>
